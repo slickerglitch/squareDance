@@ -1,18 +1,31 @@
 // Creating a game object to track curr player & board state
-const dancer = "𓆏";
+const dancer1 = "𓆏";
+const dancer2 = "𐂂"; 
+
+
 
 const game = {
 	gameBoard() {
 		const board = document.getElementById("board");
 
-		// for (i = 0; i < 12; i++) { // <-For 2*6 matrix
-		for (i = 0; i < 4; i++) {
-			// i = 0; i <= array.length - 1; i++
+		// for (let i = 0; i < 12; i++) { // <-For 2*6 matrix
+		for (let i = 0; i < 4; i++) {
+			// let i = 0; i <= array.length - 1; i++
 			const square = document.createElement("div");
 			board.appendChild(square);
 			square.classList.add("square");
-			square.innerHTML += dancer;
+				
+			// for (let j = 1; j < 3; j+=2) { 
+			if (i === 1) {
+			square.innerHTML += dancer1;
+			}
+			if (i === 2) {
+		   square.innerHTML += dancer2;
+			}
 		}
+	
+		
+
 		// document.square.innerHTML += dancer;
 	}, 
 

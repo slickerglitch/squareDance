@@ -1,4 +1,4 @@
-// const dancer1 = "𐂂"; 
-const dancer = "𓆏";
+const dancers = [];
 
-// const dancers = [dancer1, dancer2]
+// const dancer1 = "𐂂"; 
+// const dancer = "𓆏";

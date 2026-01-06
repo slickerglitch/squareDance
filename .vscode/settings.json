@@ -1,3 +1,14 @@
 {
-   "liveServer.settings.port": 5501
+   "liveServer.settings.port": 5501,
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+   "editor.bracketPairColorization.enabled": true,
+   "workbench.colorCustomizations": {},
+   "terminal.integrated.drawBoldTextInBrightColors": false,
+   "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
+   "editor.minimap.renderCharacters": false,
+   "terminal.integrated.minimumContrastRatio": 1,
+   "git.decorations.enabled": false,
+   "workbench.colorTheme": "2077",
+   "editor.bracketPairColorization.independentColorPoolPerBracketType": false
 }

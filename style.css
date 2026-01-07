@@ -1,24 +1,15 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-	
 body { 
 	font-family: Futura;
 	text-align: center;
 }
 
-h1 {
-	text-align: center;
-}
-
 .container {
   margin: auto;
-  max-height: fit-content;
+  /* max-height: fit-content; */
   max-width: fit-content;
-  min-width: fit-content;
-  align-items: center;
-  justify-content: center;
+  /* min-width: fit-content; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .board { 
@@ -33,7 +24,7 @@ h1 {
 }
 
 .square {
-	font-size: 2em;
+	font-size: 3em;
 	background-color: aquamarine;
 	justify-self: center;
 	align-self: center;
